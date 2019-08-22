@@ -21,6 +21,10 @@ For the media type(s) that this document is compatible with, see the [matrix][ma
   This property is *reserved* for use, to [maintain compatibility][matrix].
   When used, this field contains the media type of this document, which differs from the [descriptor](descriptor.md#properties) use of `mediaType`.
 
+- **`config`** *[descriptor](descriptor.md)*
+
+    This OPTIONAL property references a configuration object for an index.
+
 - **`manifests`** *array of objects*
 
   This REQUIRED property contains a list of [manifests](manifest.md) for specific platforms.
